@@ -503,6 +503,11 @@ export default function App() {
                   </div>
                 </div>
                 <button style={S.deleteBtn} onClick={()=>handleDelete(selected)}>🗑️ ลบรายการนี้</button>
+              </div>
+            </div>
+          );
+        })()}
+
         {page==="add" && (
           <div style={S.wrap}>
             <button style={S.backBtn} onClick={()=>setPage("list")}>← กลับ</button>
